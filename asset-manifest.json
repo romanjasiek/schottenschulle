@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/schottenschulle/static/css/main.fdd4ed54.css",
+    "main.js": "/schottenschulle/static/js/main.0953b22e.js",
+    "static/media/loop.ogv": "/schottenschulle/static/media/loop.72369b58b5258abad262.ogv",
+    "static/media/therewasalad.mp3": "/schottenschulle/static/media/therewasalad.36af8f6f18c4b7918ef9.mp3",
+    "static/media/loop.mp4": "/schottenschulle/static/media/loop.bced5b1c7ba282bf5a35.mp4",
+    "static/media/scotlandthebrave.mp3": "/schottenschulle/static/media/scotlandthebrave.13b6d873b913f9be66fd.mp3",
+    "static/media/mylove.mp3": "/schottenschulle/static/media/mylove.86e6a7f107446b5ac6c1.mp3",
+    "static/media/loop.webm": "/schottenschulle/static/media/loop.b412c43fcde0c28dc168.webm",
+    "static/media/schottenschulle.jpg": "/schottenschulle/static/media/schottenschulle.5ad930869ab9b48b2961.jpg",
+    "static/media/auftritte.jpg": "/schottenschulle/static/media/auftritte.ef2256055f550cdeff0f.jpg",
+    "static/media/schottenschulle2.jpg": "/schottenschulle/static/media/schottenschulle2.8a243b6d45668e8548a0.jpg",
+    "static/media/schottenschulle3.jpg": "/schottenschulle/static/media/schottenschulle3.22486a606f918f37ae23.jpg",
+    "static/media/header.jpg": "/schottenschulle/static/media/header.3a2a5d427a6598ff4a2e.jpg",
+    "static/media/schottenschulle1.jpg": "/schottenschulle/static/media/schottenschulle1.86bb79da9367c3924b67.jpg",
+    "static/media/OpenSans-Italic-VariableFont.ttf": "/schottenschulle/static/media/OpenSans-Italic-VariableFont.81a74304bda5ab8fa33a.ttf",
+    "static/media/OpenSans-VariableFont.ttf": "/schottenschulle/static/media/OpenSans-VariableFont.a42bbe687810bdc6e9e8.ttf",
+    "static/media/burnssupper.jpg": "/schottenschulle/static/media/burnssupper.96d566afc6ccaa59c8ab.jpg",
+    "static/media/burnsconnection.jpg": "/schottenschulle/static/media/burnsconnection.a7e95a1943bda67c8599.jpg",
+    "static/media/schottenschulle4.jpg": "/schottenschulle/static/media/schottenschulle4.5ad930869ab9b48b2961.jpg",
+    "static/media/schottenschulle7.jpg": "/schottenschulle/static/media/schottenschulle7.d05cb134c2923e30e20e.jpg",
+    "static/media/schottenschulle6.jpg": "/schottenschulle/static/media/schottenschulle6.22486a606f918f37ae23.jpg",
+    "static/media/schottenschulle5.jpg": "/schottenschulle/static/media/schottenschulle5.2f909578f9ee5f972a8d.jpg",
+    "static/media/dudelsackunterricht.jpg": "/schottenschulle/static/media/dudelsackunterricht.3dc861850c4209cdc0b7.jpg",
+    "static/media/old-english-text-mt.ttf": "/schottenschulle/static/media/old-english-text-mt.cff17c39f7f0a86c6970.ttf",
+    "static/media/TulpenOne-Regular.ttf": "/schottenschulle/static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
+    "static/media/tartan.gif": "/schottenschulle/static/media/tartan.4c1bbe75e6fc8a4b53fb.gif",
+    "index.html": "/schottenschulle/index.html",
+    "main.fdd4ed54.css.map": "/schottenschulle/static/css/main.fdd4ed54.css.map",
+    "main.0953b22e.js.map": "/schottenschulle/static/js/main.0953b22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdd4ed54.css",
+    "static/js/main.0953b22e.js"
+  ]
+}
