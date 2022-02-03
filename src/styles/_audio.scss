@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+audio {
+    margin-top: 0.5rem;
+    background-color: transparent;
+    width: 35rem;
+
+    @media (max-width: $breakpoint-sm) {
+        width: 100%; 
+    }
+}
+
+audio::-webkit-media-controls-enclosure {
+    background-color: transparent;
+}

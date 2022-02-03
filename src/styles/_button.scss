@@ -1,0 +1,76 @@
+@use "variables" as *;
+@use "fonts" as *;
+@use "sass:color";
+
+.button {
+    border: 0.125rem solid currentColor;
+    color: $default-accent-color;
+    text-decoration: none;
+    padding: 1rem 6rem;
+    border-radius: 10000px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25;
+    cursor: pointer;
+
+    &:hover {
+        color: color.scale($default-accent-color, $lightness: 20%);
+    }
+}
+
+.button--form {
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    color: black;
+    background-color: $default-accent-color;
+    border: 0.125rem solid $tertiary-accent-color;
+    font-weight: normal;
+    text-transform: none;
+
+    &:hover {
+        color: rgb(50, 50, 50);
+    }
+}
+
+.button--white {
+    font-family: $default-heading-font;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    color: $default-light-textcolor;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+
+    &:hover {
+        background-color: $dark-accent-color;
+    }
+}
+
+.button--background-blur {
+    -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
+}
+
+.button--secondary {
+    color: #fefefe;
+    background-color: $secondary-accent-color;
+    border: 0.125rem solid $secondary-accent-color;
+
+    &:hover {
+        color: $default-accent-color;
+        background-color: $tertiary-accent-color;
+        }
+}
+
+.button--slim {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.button--small {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

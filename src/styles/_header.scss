@@ -1,0 +1,257 @@
+@use "variables" as *;
+@use "fonts" as *;
+@use "mixins" as *;
+
+.header__container {
+  position: relative;
+
+  @include make-container();
+}
+
+.SideNavbarCategories {
+  position: fixed;
+  color: #fefefe;
+  text-shadow: 0 0 0.5rem #cccccc;
+  padding: 1rem;
+  right: 1rem;
+  top: 3.8rem;
+  list-style: none !important;
+  transition: all 0.5s ease-in-out;
+  z-index: 5000;
+}
+
+.SideNavbarCategories__item {
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style: none !important;
+}
+
+.header {
+  overflow: hidden;
+  position: relative;
+  height: 39rem;
+  min-height: calc(13rem + 32vw);
+
+  @media (max-width: 75em) {
+    .header {
+      height: calc(13rem + 32vw);
+    }
+  }
+}
+
+.header::before,
+.header::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  bottom: -9rem;
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+
+    @media (max-width: $breakpoint-lg) {
+        bottom: -4rem;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        bottom: -1rem;
+    }
+
+  @media (max-width: $breakpoint-md) {
+    bottom: -1rem;
+  }
+}
+
+.header::before {
+    top: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1) ), url(../assets/img/header/header.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    @media (max-width: $breakpoint-xs) { 
+        background-size: cover;
+    }
+}
+
+// .header::after {
+//     /* ~660 pixel hoch <=> 33vw */
+//     height: 33vw;
+//     background-image: url("../assets/img/header/header.jpg");
+
+//     @media (max-width: $breakpoint-xs) { 
+//         display: none;
+//     }
+// }
+
+.header__heading-container {
+  clear: both;
+}
+
+.header__heading-main {
+    font-family: 'Old English';
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 9rem;
+    text-align: center;
+    line-height: 85%;
+    color: $default-accent-color;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5rem rgb(233, 196, 106);
+    animation-name: header__heading-main-font-weight;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 5rem;
+    text-shadow: none;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: 3rem;
+    text-shadow: none;
+  }
+
+  @media (max-width: $breakpoint-xs) {
+    font-size: 2.5rem;
+    text-shadow: none
+  }
+}
+@keyframes header__heading-main-font-weight {
+  0% {
+    opacity: 0;
+    font-weight: 100;
+  }
+  100% {
+    opacity: 1;
+    font-weight: 700;
+  }
+}
+
+.header__heading-sub-main {
+  margin-top: -5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: rgb(233, 196, 106);
+  text-transform: uppercase;
+  text-shadow: 0 0 0.2rem $default-accent-color;
+  position: relative;
+  z-index: 1;
+
+  @media (max-width: $breakpoint-sm) {
+      margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: none;
+  }
+  @media (max-width: $breakpoint-xs) {
+      margin-top: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    text-shadow: none;
+  }
+}
+
+// This is the "divider shape" on the bottom of the header image
+.header__slope {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10vw;
+  z-index: 1;
+
+  background-image: linear-gradient(
+    -$slope-incline,
+    #fefefe 49.9%,
+    transparent 50.1%
+  );
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: 100vw 10vw;
+}
+
+.navigation__list-item {
+  display: block;
+  float: left;
+
+  &--mobile-hidden {
+    @media (max-width: $breakpoint-md) {
+      display: none;
+    }
+  }
+
+  &--menu {
+    float: right;
+    font-size: 3rem;
+  }
+}
+
+.navigation__list-item-link {
+  color: $default-light-textcolor;
+  text-decoration: none;
+  padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+  cursor: pointer;
+  text-shadow: 0 0 0.1rem black;
+
+  &:hover {
+    color: $default-accent-color;
+  }
+
+  .navigation__list-item--menu & {
+    margin-top: 0.4rem;
+    margin-right: 0;
+    padding-right: 0;
+
+    &:hover {
+      border-bottom: none;
+      color: $default-accent-color;
+    }
+  }
+
+  &--logo {
+    margin-top: 0.9rem;
+    margin-left: 0;
+    padding-left: 0;
+
+    &:hover {
+      border-bottom: none;
+      color: $default-accent-color;
+    }
+  }
+}
+
+.navigation__list-item-logo {
+  width: 7rem;
+  height: 7rem;
+  fill: $default-accent-color;
+}
+
+.navigation__list-item-link-sidebar {
+    color: #fefefe;
+    background: rgba(254, 254, 254, 0.4);
+    text-decoration: none;
+    padding: 0.2rem 0.25rem 0.25rem 0.2rem;
+    border-radius: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    display: block;
+    cursor: pointer;
+    text-shadow: 0 0 0.5rem black;
+    text-align: right;
+  
+    &:hover {
+      color: $dark-accent-color;
+      text-shadow: 0 0 0.175rem black;
+    }
+}

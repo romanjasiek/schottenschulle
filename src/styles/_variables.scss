@@ -1,0 +1,47 @@
+@use "fonts"  as *;
+@use "sass:color";
+@use "sass:math";
+
+// Default Fonts:
+
+$default-paragraph-font: "Open Sans", sans-serif;
+$default-heading-font: "Tulpen One", cursive;
+
+// Default Colors:
+
+$default-font-color: #555555;
+$default-heading-color: #555555;
+
+$default-accent-color: #006818;
+$secondary-accent-color: #5c8ca8;
+$tertiary-accent-color: #530000;
+$dark-accent-color: #052200;
+
+$default-light-textcolor: #fefefe;
+
+// Breakpoints
+
+$breakpoint-lg: 75em!default;
+$breakpoint-md: 62em!default;
+$breakpoint-sm: 48em!default;
+$breakpoint-xs: 36em!default;
+$breakpoint-xxs: 25em!default;
+
+/* 1200px or less **/
+@media (max-width: $breakpoint-lg) {}
+
+/* 992px or less **/
+@media (max-width: $breakpoint-md) {}
+
+/* 768px or less **/
+@media (max-width: $breakpoint-sm) {}
+
+/* 576px or less **/
+@media (max-width: $breakpoint-xs) {}
+
+/** 400px or less */
+@media (max-width: $breakpoint-xxs) {}
+
+// Slope
+
+$slope-incline: math.asin(0.05);

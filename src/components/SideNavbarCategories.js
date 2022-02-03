@@ -1,0 +1,104 @@
+import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
+export default function SideNavbarCategories({ isOpen }) {
+  return (
+    <React.Fragment>
+      <ul
+        className='SideNavbarCategories'
+        style={{ right: isOpen ? 0 : -1000 }}
+      >
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#startanchor'
+          >
+            Start
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#auftritteanchor'
+          >
+            Auftritte
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#unterrichtanchor'
+          >
+            Unterricht
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#burnssupperanchor'
+          >
+            Burns Supper
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#burnsconnectionanchor'
+          >
+            Burns Connection
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#galleryanchor'
+          >
+            Impressionen
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            beavior='smooth'
+            to='#aboutmeanchor'
+          >
+            Über mich
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='#footeranchor'
+          >
+            Kontakt
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='impressum/#footeranchor'
+          >
+            Impressum
+          </Link>
+        </li>
+        <li>
+          <Link
+            className='navigation__list-item-link-sidebar'
+            behavior='smooth'
+            to='datenschutz/#footeranchor'
+          >
+            Datenschutz
+          </Link>
+        </li>
+      </ul>
+    </React.Fragment>
+  );
+}

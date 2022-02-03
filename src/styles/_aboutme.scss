@@ -1,0 +1,149 @@
+@use "variables" as *;
+
+.aboutme {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.aboutme__slideshow {
+    position: relative;
+}
+
+.aboutme__img {
+    $-img-size: 24rem;
+
+    width: $-img-size;
+    height: $-img-size;
+    object-fit: cover;
+    float: left;
+
+    border-radius: 1000000px;
+    border: 3px solid $default-accent-color;
+    shape-outside: circle(50% at 50% 50%);
+    margin-right: 2rem;
+
+    @media (max-width: $breakpoint-lg) {
+        width: $-img-size * 0.9;
+        height: $-img-size * 0.9;
+    }
+    @media (max-width: $breakpoint-md) {
+        width: $-img-size * 0.8;
+        height: $-img-size * 0.8;
+    }
+    @media (max-width: $breakpoint-sm) {
+        width: $-img-size * 0.4;
+        height: $-img-size * 0.4;
+    }
+    @media (max-width: $breakpoint-xs) {
+        width: $-img-size * 0.3;
+        height: $-img-size * 0.3;
+    }
+}
+
+.aboutme__img--slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutme__img--slideshow-3 {
+    animation-name: animation-about__img--slideshow-3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-aboutme__img--slideshow-3 {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.aboutme__img--slideshow-2 {
+    animation-name: animation-about__img--slideshow-2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-aboutme__img--slideshow-2 {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.aboutme__img--slideshow-1 {
+    animation-name: animation-about__img--slideshow-1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-aboutme__img--slideshow-1 {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.aboutme__heading {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: $default-heading-font;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+}
+
+.aboutme__text {
+    padding-top: 0.5rem;
+    color: $default-heading-color;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        height: 0.25rem;
+        width: 4rem;
+        margin-left: 1rem;
+    }
+
+    @media (max-width: $breakpoint-lg) {
+        padding-top: 0.5rem;
+    }
+}
+
+.aboutme__paragraph {
+  font-family: $default-paragraph-font;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  color: $default-font-color;
+}

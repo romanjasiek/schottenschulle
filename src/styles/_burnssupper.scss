@@ -1,0 +1,36 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+
+.burns-supper {
+    margin-top: 5rem;
+}
+
+.burns-supper__container {
+    @include make-container();
+}
+
+.burns-supper__img {
+    width: 100%;
+    height: auto;
+    border: 1px solid $default-accent-color;
+    box-shadow: 10px 10px 5px #ccc;
+     -moz-box-shadow: 10px 10px 5px #ccc;
+     -webkit-box-shadow: 10px 10px 5px #ccc;
+     -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.burn-supper__heading {
+    font-family: $default-heading-font;
+    color: $default-font-color;
+    letter-spacing: 0.1em;
+    font-size: 3rem;
+}
+
+.burns-supper__text {
+    font-family: $default-paragraph-font;
+    color: $default-font-color;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}

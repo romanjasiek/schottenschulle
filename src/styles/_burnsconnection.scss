@@ -1,0 +1,51 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+
+.burns-connection {
+    margin-top: 5rem;
+}
+
+.burns-connection__container {
+    @include make-container();
+}
+
+.burns-connection__img {
+    width: 100%;
+    height: auto;
+    border: 1px solid $default-accent-color;
+    box-shadow: 10px 10px 5px #ccc;
+     -moz-box-shadow: 10px 10px 5px #ccc;
+     -webkit-box-shadow: 10px 10px 5px #ccc;
+     -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.burns-connection__heading {
+    font-family: $default-heading-font;
+    color: $default-font-color;
+    letter-spacing: 0.1em;
+    font-size: 3rem;
+}
+
+.burns-connection__text {
+    font-family: $default-paragraph-font;
+    color: $default-font-color;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.burns-connection__image-caption {
+    font-family: $default-paragraph-font;
+    color: $default-font-color;
+    font-size: 0.85rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.burns-connection__songtitle {
+    font-family: $default-heading-font;
+    color: $default-font-color;
+    letter-spacing: 0.1em;
+    font-size: 2rem;
+}

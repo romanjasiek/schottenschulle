@@ -1,0 +1,66 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+@use "sass:color";
+
+li {
+    list-style-type: circle;
+    font-family: $default-paragraph-font;
+    font-size: 1rem;
+}
+
+
+.feature-details {
+    @include make-container();
+    background: #fefefe;
+    color: $default-font-color;
+}
+
+.feature-details__heading {
+    font-family: $default-heading-font;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+}
+
+.feature-details__sub-heading {
+    font-family: $default-heading-font;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+}
+
+.feature-details__text {
+    font-family: $default-paragraph-font;
+    font-size: 1rem;
+}
+
+.feature-details__text:nth-child(2n+1) {
+    font-family: $default-paragraph-font;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature-details__icon {
+    padding-right: 1.5rem;
+    color: $default-accent-color;
+}
+
+.feature-details__link {
+    text-decoration: none;
+    color: #555555;
+    font-weight: 700;
+}
+
+.feature-details__link:hover{
+    color: $default-accent-color;
+}
+
+.fading {
+    transition: color 2s ease-in-out;
+
+    &:hover {
+        color: $default-accent-color;
+        transition: all 0s;
+      }
+}

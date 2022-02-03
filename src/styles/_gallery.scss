@@ -1,0 +1,117 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "sass:color";
+
+.gallery {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/background/tartan.gif);
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.gallery__container {
+    @include make-container();
+}
+
+.gallery__heading {
+    color: $default-light-textcolor;
+    font-family: $default-heading-font;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.gallery__list {
+    $column-size: 71rem * 0.2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: #{$column-size} #{$column-size};
+
+    @media (max-width: $breakpoint-lg) {
+        grid-template-rows: #{$column-size * 0.9} #{$column-size * 0.9};
+    }
+    @media (max-width: $breakpoint-md) {
+        grid-template-rows: #{$column-size * 0.8} #{$column-size * 0.8};
+    }
+    @media (max-width: $breakpoint-sm) {
+        grid-template-rows: #{$column-size * 0.5} #{$column-size * 0.5};
+    }
+    @media (max-width: $breakpoint-xs) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: #{$column-size} #{$column-size} #{$column-size} #{$column-size} #{$column-size};
+    }
+}
+
+.gallery__list-item {
+    $animation-duration: 0.2s;
+    display: block;
+    transform: scale(1);
+    z-index: 0;
+    transition: filter $animation-duration ease-in-out, transform $animation-duration ease-in-out, z-index $animation-duration linear, box-shadow $animation-duration ease-in-out;
+    box-shadow: 0 0 1rem rgb(0,0,0,0);
+
+    &:hover {
+        transform: scale(1.1);
+        filter: brightness(1.4) contrast(.95) saturate(1.2);
+        z-index: 1000;
+        box-shadow: 0 0 1rem rgb(0,0,0,1);
+    }
+
+    &--first {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+
+        grid-row-start: 1;
+        grid-row-end: span 2;
+    }
+
+    &--last {
+        grid-column-start: 4;
+        grid-column-end: span 2;
+
+        grid-row-start: 1;
+        grid-row-end: span 2;
+
+        @media (max-width: $breakpoint-xs) {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+    }
+}
+
+.gallery__list-item-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__list-item-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery__list-item-bg-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.SRLCaptionText {
+    font-family: $default-paragraph-font !important;
+    font-size: 1rem;
+}

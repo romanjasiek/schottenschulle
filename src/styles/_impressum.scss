@@ -1,0 +1,48 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+
+.impressum__container {
+    position: relative;
+    z-index: 2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+
+    @include make-container();
+}
+
+.impressum__heading {
+    color: $default-heading-color;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: $default-heading-font;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+}
+
+.impressum__close-link {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    color: $default-font-color;
+    font-family: $default-paragraph-font;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+
+h4 {
+    color: $default-font-color;
+    font-family: $default-paragraph-font;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    color: $default-font-color;
+    font-family: $default-paragraph-font;
+    padding-top: 0.5rem;
+}
+
+p:last-child {
+    margin-bottom: 2.5rem;
+}

@@ -1,0 +1,90 @@
+@use "variables" as *;
+@use "mixins" as *;
+@use "fonts" as *;
+@use "sass:color";
+
+
+.learning {
+    position: relative;
+    overflow: hidden;
+}
+
+.learning__video {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    filter:grayscale(75%);
+
+    @supports (object-fit: cover) and (object-position: center center) {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+// Video von Osmij / Pixabay
+
+.learning__video-colorize {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: color.scale($default-accent-color, $alpha: -50%);
+}
+
+.learning__container {
+    position: relative;
+    z-index: 2;
+
+    @include make-container();
+}
+
+.learning__heading {
+    color: $default-light-textcolor;
+    font-family: $default-heading-font;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.learning__desc {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3rem;
+    font-family: $default-paragraph-font;
+    font-size: 1rem;
+    color: $default-light-textcolor;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 0.125rem dotted $default-accent-color;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
+    text-align: justify;
+
+    background-color: color.scale($dark-accent-color, $alpha: -30%);
+    border: 1px solid color.scale($default-accent-color, $alpha: -30%);
+
+    @media (max-width: $breakpoint-sm) {
+        column-count: 1;
+        text-align: left;
+    }
+}
+
+.learning__desc p {
+    color: $default-light-textcolor;
+    margin-bottom: 1rem;
+}
+
+.learning__contact {
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+    display:block;
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: local('Open Sans'), url(../assets/fonts/OpenSans-VariableFont.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: local('Open Sans'), url(../assets/fonts/OpenSans-Italic-VariableFont.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Tulpen One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Tulpen One'), url(../assets/fonts/TulpenOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Old English';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Old English'), url(../assets/fonts/old-english-text-mt.ttf) format('truetype');
+}

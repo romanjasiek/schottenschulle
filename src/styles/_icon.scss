@@ -1,0 +1,29 @@
+@use "variables" as *;
+@use "fonts" as *;
+@use "mixins" as *;
+
+.icon {
+    fill: currentColor;
+    height: 1em;
+    vertical-align: middle;
+
+    &:not(.icon--no-position) {
+        position: relative;
+        top: -0.075em;
+    }
+}
+
+.another-icon {
+    fill: $default-accent-color;
+    height: 1em;
+    vertical-align: middle;
+
+    &:not(.icon--no-position) {
+        position: relative;
+        top: -0.075em;
+    }
+
+    &:hover {
+        fill: $secondary-accent-color;
+    }
+}
