@@ -18,10 +18,9 @@ const Impressum = () => {
       <h4>Kontakt</h4>
       <p>Telefon: 030-4811672</p>
       <p>E-Mail: schottenschulle@aol.com</p>
-      <div>
-        <Link className='impressum__close-link' to='/'>
-          <FontAwesomeIcon icon={faTimesCircle} />
-          &nbsp;Impressum schließen
+      <div className='impressum__close-link'>
+        <Link to='/'>
+          <FontAwesomeIcon icon={faTimesCircle} />Impressum schließen
         </Link>
       </div>
     </section>

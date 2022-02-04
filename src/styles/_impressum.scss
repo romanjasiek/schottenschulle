@@ -22,12 +22,19 @@
 }
 
 .impressum__close-link {
-    margin-top: 1.5rem;
+    color: $default-font-color;
+    font-family: $default-paragraph-font;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     color: $default-font-color;
     font-family: $default-paragraph-font;
     font-size: 0.75rem;
     text-decoration: none;
+}
+
+a {
+      color: $default-font-color;
+    font-family: $default-paragraph-font; 
 }
 
 h4 {

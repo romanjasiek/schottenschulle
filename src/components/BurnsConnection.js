@@ -62,7 +62,7 @@ const BurnsConnection = () => {
             </Col>
           </Row>
           <Row>
-            <Col xs={6} md={6} lg={6}>
+            <Col xs={12} md={6} lg={6}>
               <h3 className='burns-connection__songtitle'>
                 There Was A Lad Was Born In Kyle
               </h3>
@@ -73,7 +73,7 @@ const BurnsConnection = () => {
                 preload='metadata'
               />
             </Col>
-            <Col xs={6} md={6} lg={6}>
+            <Col xs={12} md={6} lg={6}>
               <h3 className='burns-connection__songtitle'>
                 My Love She's But A Lassie Yet
               </h3>

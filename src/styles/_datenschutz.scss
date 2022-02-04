@@ -29,17 +29,14 @@
 }
 
 .datenschutz__close-link {
-    margin-top: 1.5rem;
+    color: $default-font-color;
+    font-family: $default-paragraph-font;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     color: $default-font-color;
     font-family: $default-paragraph-font;
     font-size: 0.75rem;
     text-decoration: none;
-}
-
-a {
-    color: $default-font-color;
-    font-family: $default-paragraph-font;
 }
 
 ul {
@@ -72,6 +69,7 @@ p {
     padding-top: 0.5rem;
 }
 
-p:last-child {
-    margin-bottom: 2.5rem;
+a {
+      color: $default-font-color;
+    font-family: $default-paragraph-font; 
 }

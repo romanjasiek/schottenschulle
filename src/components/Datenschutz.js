@@ -619,10 +619,12 @@ const Datenschutz = () => {
         </p>
       </div>
 
-      <div>
-        <Link className='datenschutz__close-link' to='/'>
-          <FontAwesomeIcon icon={faTimesCircle} />
-          &nbsp;Datenschutzerklärung schließen
+      <div className='datenschutz__close-link'>
+        <Link to='/'>
+          <p>
+            <FontAwesomeIcon icon={faTimesCircle} />Datenschutzerklärung
+            schließen
+          </p>
         </Link>
       </div>
     </section>
