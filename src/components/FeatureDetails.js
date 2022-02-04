@@ -16,20 +16,16 @@ const FeatureDetails = () => {
           <h2 className='pb-2 border-bottom feature-details__heading'>
             Auftritte
           </h2>
-          <p className='feature-details__text'>Ob zu</p>
           <p className='feature-details__text'>
-            <strong>Geburtstagen</strong>, <strong>Hochzeiten</strong>,{' '}
+            Ob zu <strong>Geburtstagen</strong>, <strong>Hochzeiten</strong>,{' '}
             <strong>Familienfeiern</strong>, <strong>Jubiläen</strong>,{' '}
             <strong>Begräbnissen</strong> oder{' '}
-            <strong>sonstigen Anlässen</strong>
-          </p>
-          <p className='feature-details__text'>
-            - mit Schottenschulle werden Sie mit Ihrer Familie, Ihren Freunden
-            und/oder Kollegen ein Erlebnis haben, das Ihnen lange in Erinnerung
-            bleiben wird.
+            <strong>sonstigen Anlässen</strong> - mit Schottenschulle werden Sie
+            mit Ihrer Familie, Ihren Freunden und/oder Kollegen ein Erlebnis
+            haben, das Ihnen lange in Erinnerung bleiben wird.
           </p>
 
-          <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
+          <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4 py-5'>
             <div className='col d-flex align-items-start'>
               <FontAwesomeIcon icon={faGift} size='2x' />
               &nbsp;
@@ -127,7 +123,7 @@ const FeatureDetails = () => {
                   Kinderumzüge
                 </h4>
                 <p className='feature-details__text'>
-                  Auch Kinder haben ihre Freude beim Auftritt von
+                  Auch Kinder haben ihre Freude beim Auftritt von{' '}
                   <strong>Schottenschulle</strong>.
                 </p>
                 <p className='feature-details__text'>

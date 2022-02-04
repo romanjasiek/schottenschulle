@@ -16,7 +16,9 @@
     right: 0;
     top: 0;
     width: 100%;
-    filter:grayscale(75%);
+    // border-top: 1px solid $secondary-accent-color;
+    // border-bottom: 2px solid $secondary-accent-color;
+    filter:grayscale(55%);
 
     @supports (object-fit: cover) and (object-position: center center) {
         height: 100%;
@@ -24,8 +26,6 @@
         object-position: center center;
     }
 }
-
-// Video von Osmij / Pixabay
 
 .learning__video-colorize {
     position: absolute;
@@ -35,7 +35,7 @@
     left: 0;
     right: 0;
 
-    background-color: color.scale($default-accent-color, $alpha: -50%);
+    background-color: color.scale($scottishblue, $alpha: -90%);
 }
 
 .learning__container {
@@ -65,12 +65,12 @@
     color: $default-light-textcolor;
     column-count: 2;
     column-gap: 4rem;
-    column-rule: 0.125rem dotted $default-accent-color;
+    column-rule: 0.125rem dotted $scottishblue;
     text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
     text-align: justify;
 
     background-color: color.scale($dark-accent-color, $alpha: -30%);
-    border: 1px solid color.scale($default-accent-color, $alpha: -30%);
+    border: 1px solid color.scale($secondary-accent-color, $alpha: -30%);
 
     @media (max-width: $breakpoint-sm) {
         column-count: 1;

@@ -43,7 +43,7 @@ li {
 
 .feature-details__icon {
     padding-right: 1.5rem;
-    color: $default-accent-color;
+    color: $scottishblue;
 }
 
 .feature-details__link {
@@ -53,14 +53,14 @@ li {
 }
 
 .feature-details__link:hover{
-    color: $default-accent-color;
+    color: $scottishblue;
 }
 
 .fading {
     transition: color 2s ease-in-out;
 
     &:hover {
-        color: $default-accent-color;
+        color: $scottishblue;
         transition: all 0s;
       }
 }

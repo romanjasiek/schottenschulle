@@ -4,7 +4,7 @@
 
 .button {
     border: 0.125rem solid currentColor;
-    color: $default-accent-color;
+    color: $secondary-accent-color;
     text-decoration: none;
     padding: 1rem 6rem;
     border-radius: 10000px;
@@ -41,6 +41,7 @@
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
 
     &:hover {
+        color: $secondary-accent-color;
         background-color: $dark-accent-color;
     }
 }
@@ -51,12 +52,12 @@
 }
 
 .button--secondary {
-    color: #fefefe;
+    color: #FFFEFA;
     background-color: $secondary-accent-color;
     border: 0.125rem solid $secondary-accent-color;
 
     &:hover {
-        color: $default-accent-color;
+        color: $secondary-accent-color;
         background-color: $tertiary-accent-color;
         }
 }

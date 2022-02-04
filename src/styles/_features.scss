@@ -14,9 +14,8 @@ $-features-animations-duration: 0.3s;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    padding-top: 1.5rem;
     padding-bottom: 8.5rem;
-    border-top: 2px solid $secondary-accent-color;
-    border-bottom: 3px solid $default-accent-color;
 }
 
 %features__before-and-after {
@@ -124,6 +123,7 @@ $-features-animations-duration: 0.3s;
 }
 
 .features__card-used-tech {
+    color: $default-light-textcolor;
     font-family: $default-paragraph-font;
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -135,10 +135,11 @@ $-features-animations-duration: 0.3s;
 }
 
 .features__card-used-tech-desc {
+    color: $default-light-textcolor;
     font-family: $default-paragraph-font;
     font-size: 0.8rem;
     padding: 0.9rem 0;
-    background-image: linear-gradient(90deg, $default-accent-color 60%, transparent 60%);
+    background-image: linear-gradient(90deg, $scottishblue 60%, transparent 60%);
     background-position-y: top;
     background-size: 100% 0.125rem;
     background-repeat: no-repeat;
@@ -168,7 +169,7 @@ $-features-animations-duration: 0.3s;
 .features__card-icon {
     color: #fefefe;
     position: relative;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-left: calc(9% - 0.55rem);
 
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
@@ -179,13 +180,13 @@ $-features-animations-duration: 0.3s;
 }
 
 .features__card-icon-background {
-    background-color: $default-accent-color;
+    background-color: $scottishblue;
     padding: 0 0.3rem;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 1.5rem;
+    height: 2rem;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.6);
 
     transition: transform $-features-animations-duration ease-in-out;

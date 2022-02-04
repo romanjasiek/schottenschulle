@@ -4,7 +4,19 @@
 
 
 .burns-connection {
-    margin-top: 5rem;
+    margin-top: 1rem;
+
+@media (max-width: $breakpoint-lg) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;;
+  }
 }
 
 .burns-connection__container {

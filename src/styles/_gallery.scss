@@ -10,6 +10,18 @@
     background-size: cover;
     margin-top: 5rem;
     padding-bottom: 3rem;
+
+@media (max-width: $breakpoint-lg) {
+    margin-top: -2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2rem;;
+  }
 }
 
 .gallery__container {

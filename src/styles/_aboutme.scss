@@ -3,6 +3,18 @@
 .aboutme {
     padding-top: 5rem;
     padding-bottom: 5rem;
+
+@media (max-width: $breakpoint-lg) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;;
+  }
 }
 
 .aboutme__slideshow {

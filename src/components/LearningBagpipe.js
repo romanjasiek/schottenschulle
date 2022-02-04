@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import webMVideo from '../assets/video/loop.webm';
 import mp4Video from '../assets/video/loop.mp4';
@@ -45,12 +46,13 @@ const LearningBagpipe = () => {
           <p></p>
         </div>
         <div className='learning__contact'>
-          <a
+          <Link
             className='button button--white button--background-blur'
-            href='#contact-modal'
+            behavior='smooth'
+            to='#footeranchor'
           >
             Kontakt
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -7,9 +7,10 @@ const BurnsSupper = () => {
   return (
     <div>
       <section className='burns-supper' id='burnssupperanchor'>
-        <Container className='burns-supper__container'>
-          <Row>
-            <Col xs={6}>
+        <Container fluid className='burns-supper__container'>
+          <h3 className='burn-supper__heading'>Burns Supper</h3>
+          <Row xs='auto'>
+            <Col md={6} lg={6}>
               <img
                 className='burns-supper__img'
                 loading='lazy'
@@ -17,8 +18,7 @@ const BurnsSupper = () => {
                 alt='Burns Supper'
               />
             </Col>
-            <Col xs={6}>
-              <h3 className='burn-supper__heading'>Burns Supper</h3>
+            <Col md={6} lg={6}>
               <p className='burns-supper__text'>
                 Das “<strong>Burns Supper</strong>” ist ein traditioneller
                 schottischer Abend zum Gedenken an <strong>Robert Burns</strong>
@@ -35,15 +35,17 @@ const BurnsSupper = () => {
               </p>
               <h3 className='burn-supper__heading'>Robert Burns</h3>
               <p className='burns-supper__text'>
-                Robert Burns gilt neben Walter Scott als der größte schottische
+                <strong>Robert Burns</strong> gilt neben{' '}
+                <strong>Walter Scott</strong> als der größte schottische
                 Dichter, Lieder- und Geschichtensammler. Er war Freimaurer und
                 hatte wegen seiner zahlreichen Liebschaften große Probleme mit
                 der Kirche.
               </p>
               <p className='burns-supper__text'>
-                1786 veröffenlichte er seine Gedichte, geschrieben im
-                schottischen Dialekt, in der Kilmarnock Edition und wurde damit
-                über Nacht in ganz Schottland berühmt.
+                <strong>1786</strong> veröffenlichte er seine Gedichte,
+                geschrieben im schottischen Dialekt, in der{' '}
+                <strong>Kilmarnock Edition</strong>
+                und wurde damit über Nacht in ganz Schottland berühmt.
               </p>
               <p className='burns-supper__text'>
                 Er starb sehr früh an einem rheumatischen Leiden.

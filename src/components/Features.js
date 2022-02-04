@@ -14,7 +14,7 @@ const Features = () => {
     <>
       <section className='features' id='usedfeatures'>
         <div className='features__container'>
-          <h2 className='features__heading'>Schottenschulle</h2>
+          {/* <h2 className='features__heading'>Schottenschulle</h2> */}
           <div className='features__cards'>
             <div className='features__card'>
               <img className='features__card-image' src={Card1} alt='Schottenschulle' />

@@ -13,6 +13,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+@media (max-width: $breakpoint-lg) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;
+    }
+
+@media (max-width: $breakpoint-md) {
+    margin-top: -2.2rem;;
+  }
 }
 
 .footer__container {
@@ -91,7 +103,7 @@
     z-index: 2;
 
     color: $default-light-textcolor;
-    background-color: $secondary-accent-color;
+    background-color: $scottishblue;
     height: 4rem;
     width: 4rem;
     text-align: center;
@@ -110,7 +122,7 @@
     top: 0.25rem;
 
     white-space: nowrap;
-    background-color: $default-accent-color;
+    background-color: $secondary-accent-color;
     text-decoration: none;
     font-family: $default-paragraph-font;
     color: $default-light-textcolor;
@@ -130,7 +142,7 @@
         width: calc(100% + 5rem);
         bottom: 0;
 
-        background-image: linear-gradient(-45deg, transparent 2.82rem, $secondary-accent-color 2.82rem);
+        background-image: linear-gradient(-45deg, transparent 2.82rem, $scottishblue 2.82rem);
         background-position: right center;
         background-repeat: no-repeat;
         transition: transform 0.5s ease-in-out;
@@ -156,7 +168,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(135deg, $default-accent-color 49%, $secondary-accent-color 100%);
+    background-image: linear-gradient(135deg, $scottishblue 49%, $secondary-accent-color 100%);
     border-radius: 100000px;
 
     @media (max-width: $breakpoint-md) {

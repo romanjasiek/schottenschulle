@@ -48,18 +48,6 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
-
-    @media (max-width: $breakpoint-lg) {
-        bottom: -4rem;
-    }
-
-    @media (max-width: $breakpoint-md) {
-        bottom: -1rem;
-    }
-
-  @media (max-width: $breakpoint-md) {
-    bottom: -1rem;
-  }
 }
 
 .header::before {
@@ -70,20 +58,31 @@
     -o-background-size: cover;
     background-size: cover;
 
-    @media (max-width: $breakpoint-xs) { 
-        background-size: cover;
+    // @media (max-width: $breakpoint-xs) { 
+    //     background-size: cover;
+    // }
+
+    @media (max-width: $breakpoint-lg) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: -2rem;
     }
+
+  @media (max-width: $breakpoint-md) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: -2rem;
+    }
+
+  @media (max-width: $breakpoint-md) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: -2rem;
+  }
 }
-
-// .header::after {
-//     /* ~660 pixel hoch <=> 33vw */
-//     height: 33vw;
-//     background-image: url("../assets/img/header/header.jpg");
-
-//     @media (max-width: $breakpoint-xs) { 
-//         display: none;
-//     }
-// }
 
 .header__heading-container {
   clear: both;
@@ -91,14 +90,14 @@
 
 .header__heading-main {
     font-family: 'Old English';
-    padding-top: 1rem;
+    padding-top: 6rem;
     font-weight: 700;
     font-size: 9rem;
     text-align: center;
     line-height: 85%;
-    color: $default-accent-color;
+    color: $scottishblue;
     text-transform: uppercase;
-    text-shadow: 0 0 0.5rem rgb(233, 196, 106);
+    text-shadow: 0 0 0.5rem $default-light-textcolor;
     animation-name: header__heading-main-font-weight;
     animation-delay: 0.5s;
     animation-duration: 5s;
@@ -108,16 +107,19 @@
   @media (max-width: $breakpoint-md) {
     font-size: 5rem;
     text-shadow: none;
+    margin-top: 1rem;
   }
 
   @media (max-width: $breakpoint-sm) {
     font-size: 3rem;
     text-shadow: none;
+    margin-top: 1rem;
   }
 
   @media (max-width: $breakpoint-xs) {
-    font-size: 2.5rem;
-    text-shadow: none
+    font-size: 2rem;
+    text-shadow: none;
+    margin-top: 1rem;
   }
 }
 @keyframes header__heading-main-font-weight {
@@ -132,28 +134,30 @@
 }
 
 .header__heading-sub-main {
-  margin-top: -5rem;
-  font-size: 2.5rem;
-  font-weight: 500;
+  margin-top: -4rem;
+  font-size: 2rem;
+  font-weight: 200;
   letter-spacing: 0.2rem;
   text-align: center;
-  color: rgb(233, 196, 106);
+  color: #FFFEFA;
   text-transform: uppercase;
-  text-shadow: 0 0 0.2rem $default-accent-color;
+  text-shadow: 0 0 9rem $dark-accent-color;
   position: relative;
   z-index: 1;
 
   @media (max-width: $breakpoint-sm) {
-      margin-top: 0;
+    margin-top: 0;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 200;
     text-shadow: none;
+    color: $tertiary-accent-color;
   }
   @media (max-width: $breakpoint-xs) {
-      margin-top: 0;
+    margin-top: 0;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     text-shadow: none;
+    color: $tertiary-accent-color;
   }
 }
 
@@ -204,7 +208,7 @@
   text-shadow: 0 0 0.1rem black;
 
   &:hover {
-    color: $default-accent-color;
+    color: $secondary-accent-color;
   }
 
   .navigation__list-item--menu & {
@@ -233,12 +237,12 @@
 .navigation__list-item-logo {
   width: 7rem;
   height: 7rem;
-  fill: $default-accent-color;
+  fill: $default-light-textcolor;
 }
 
 .navigation__list-item-link-sidebar {
-    color: #fefefe;
-    background: rgba(254, 254, 254, 0.4);
+    color: #FFFEFA;
+    background: rgba(0, 0, 0, 0.4);
     text-decoration: none;
     padding: 0.2rem 0.25rem 0.25rem 0.2rem;
     border-radius: 0.5rem;
