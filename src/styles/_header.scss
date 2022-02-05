@@ -150,14 +150,14 @@
     font-size: 1.5rem;
     font-weight: 200;
     text-shadow: none;
-    color: $tertiary-accent-color;
+    color: $default-light-textcolor;
   }
   @media (max-width: $breakpoint-xs) {
     margin-top: 0;
     font-size: 1rem;
     font-weight: 200;
     text-shadow: none;
-    color: $tertiary-accent-color;
+    color: $default-light-textcolor;
   }
 }
 
