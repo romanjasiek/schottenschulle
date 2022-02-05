@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faGraduationCap, faMusic, faUser, faUsers } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,7 +17,11 @@ const Features = () => {
           {/* <h2 className='features__heading'>Schottenschulle</h2> */}
           <div className='features__cards'>
             <div className='features__card'>
-              <img className='features__card-image' src={Card1} alt='Schottenschulle' />
+              <img
+                className='features__card-image'
+                src={Card1}
+                alt='Schottenschulle'
+              />
               <div className='features__card-icon-background'></div>
               <div className='features__icon-container'>
                 <p>
@@ -27,7 +31,13 @@ const Features = () => {
               <div className='features__card-content'>
                 <h5 className='features__card-heading'>Schottenschulle</h5>
                 <p className='features__card-used-tech'>
-                  Peter Schultze
+                  <Link
+                    className='features__link'
+                    beavior='smooth'
+                    to='#aboutmeanchor'
+                  >
+                    Peter Schultze
+                  </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>
                   Mehr als 30 Jahre Erfahrung als Dudelsackspieler und -lehrer
@@ -35,7 +45,11 @@ const Features = () => {
               </div>
             </div>
             <div className='features__card'>
-              <img className='features__card-image' src={Card2} alt='Auftritte' />
+              <img
+                className='features__card-image'
+                src={Card2}
+                alt='Auftritte'
+              />
               <div className='features__card-icon-background'></div>
               <div className='features__icon-container'>
                 <p>
@@ -45,7 +59,13 @@ const Features = () => {
               <div className='features__card-content'>
                 <h5 className='features__card-heading'>Auftritte</h5>
                 <p className='features__card-used-tech'>
-                  Für Anlässe aller Art
+                  <Link
+                    className='features__link'
+                    beavior='smooth'
+                    to='#auftritteanchor'
+                  >
+                    Für Anlässe aller Art
+                  </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>
                   Geburtstage, Hochzeiten, Jubiläen, Trauerfeiern uvm.
@@ -53,25 +73,44 @@ const Features = () => {
               </div>
             </div>
             <div className='features__card'>
-              <img className='features__card-image' src={Card3} alt='Dudelsackunterricht' />
+              <img
+                className='features__card-image'
+                src={Card3}
+                alt='Dudelsackunterricht'
+              />
               <div className='features__card-icon-background'></div>
               <div className='features__icon-container'>
                 <p>
-                  <FontAwesomeIcon icon={faGraduationCap} color='#fefefe' size='lg' />
+                  <FontAwesomeIcon
+                    icon={faGraduationCap}
+                    color='#fefefe'
+                    size='lg'
+                  />
                 </p>
               </div>
               <div className='features__card-content'>
                 <h5 className='features__card-heading'>Unterricht</h5>
                 <p className='features__card-used-tech'>
-                  Great Highland Backpipe
+                  <Link
+                    className='features__link'
+                    beavior='smooth'
+                    to='#unterrichtanchor'
+                  >
+                    Great Highland Backpipe
+                  </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>
-                  Erlernen Sie bei mir das Spielen des echten schottischen Dudelsacks
+                  Erlernen Sie bei mir das Spielen des echten schottischen
+                  Dudelsacks
                 </p>
               </div>
             </div>
             <div className='features__card'>
-              <img className='features__card-image' src={Card4} alt='Burns Supper' />
+              <img
+                className='features__card-image'
+                src={Card4}
+                alt='Burns Supper'
+              />
               <div className='features__card-icon-background'></div>
               <div className='features__icon-container'>
                 <p>
@@ -81,7 +120,13 @@ const Features = () => {
               <div className='features__card-content'>
                 <h5 className='features__card-heading'>Burns Supper</h5>
                 <p className='features__card-used-tech'>
-                  Zu Ehren Robert Burns'
+                  <Link
+                    className='features__link'
+                    beavior='smooth'
+                    to='#burnssupperanchor'
+                  >
+                    Zu Ehren Robert Burns'
+                  </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>
                   Haggis, Whisky, Dudelsack und die Werke von Robert Burns
@@ -89,24 +134,31 @@ const Features = () => {
               </div>
             </div>
             <div className='features__card'>
-              <img className='features__card-image' src={Card5} alt='Burns Connection' />
+              <img
+                className='features__card-image'
+                src={Card5}
+                alt='Burns Connection'
+              />
               <div className='features__card-icon-background'></div>
               <div className='features__icon-container'>
                 <p>
-                  <FontAwesomeIcon
-                    icon={faUsers}
-                    color='#fefefe'
-                    size='lg'
-                  />
+                  <FontAwesomeIcon icon={faUsers} color='#fefefe' size='lg' />
                 </p>
               </div>
               <div className='features__card-content'>
                 <h5 className='features__card-heading'>Burns Connection</h5>
                 <p className='features__card-used-tech'>
-                  Deutsch-Schottische Freundschaft
+                  <Link
+                    className='features__link'
+                    beavior='smooth'
+                    to='#burnsconnectionanchor'
+                  >
+                    Deutsch-Schottische Freundschaft
+                  </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>
-                  Meine Band, bestehend aus Freunden und Familie, mit der ich u. a. beim Rudolstadt Festival aufgetreten bin
+                  Meine Band, bestehend aus Freunden und Familie, mit der ich u.
+                  a. beim Rudolstadt Festival aufgetreten bin
                 </p>
               </div>
             </div>

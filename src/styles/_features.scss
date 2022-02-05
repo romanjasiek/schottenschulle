@@ -36,6 +36,11 @@ $-features-animations-duration: 0.3s;
     overflow: hidden;
 }
 
+.features__link {
+    color: $default-light-textcolor;
+    text-decoration: none;
+}
+
 @mixin -features__before-and-after-stroke($color) {
     @supports (-webkit-text-stroke: 2px #{$color}) or (text-stroke: 2px #{$color}) {
         -webkit-text-stroke: 2px #{$color};

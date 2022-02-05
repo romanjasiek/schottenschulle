@@ -3,7 +3,7 @@
 @use "mixins" as *;
 
 .icon {
-    fill: currentColor;
+    fill: $default-light-textcolor;
     height: 1em;
     vertical-align: middle;
 
@@ -14,7 +14,7 @@
 }
 
 .another-icon {
-    fill: $secondary-accent-color;
+    fill: $scottishblue;
     height: 1em;
     vertical-align: middle;
 

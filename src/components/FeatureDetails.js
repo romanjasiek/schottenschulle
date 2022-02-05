@@ -27,7 +27,11 @@ const FeatureDetails = () => {
 
           <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4 py-5'>
             <div className='col d-flex align-items-start'>
-              <FontAwesomeIcon icon={faGift} size='2x' />
+              <FontAwesomeIcon
+                icon={faGift}
+                size='2x'
+                className='feature-details__icon'
+              />
               &nbsp;
               <div>
                 <h4 className='mb-1 fading feature-details__sub-heading'>
@@ -56,7 +60,11 @@ const FeatureDetails = () => {
               </div>
             </div>
             <div className='col d-flex align-items-start'>
-              <FontAwesomeIcon icon={faHeart} size='2x' />
+              <FontAwesomeIcon
+                icon={faHeart}
+                size='2x'
+                className='feature-details__icon'
+              />
               &nbsp;
               <div>
                 <h4 className='mb-1 fading feature-details__sub-heading'>
@@ -78,7 +86,11 @@ const FeatureDetails = () => {
               </div>
             </div>
             <div className='col d-flex align-items-start'>
-              <FontAwesomeIcon icon={faCross} size='2x' />
+              <FontAwesomeIcon
+                icon={faCross}
+                size='2x'
+                className='feature-details__icon'
+              />
               &nbsp;
               <div>
                 <h4 className='mb-1 fading feature-details__sub-heading'>
@@ -116,7 +128,11 @@ const FeatureDetails = () => {
               </div>
             </div>
             <div className='col d-flex align-items-start'>
-              <FontAwesomeIcon icon={faChild} size='2x' />
+              <FontAwesomeIcon
+                icon={faChild}
+                size='2x'
+                className='feature-details__icon'
+              />
               &nbsp;
               <div>
                 <h4 className='mb-1 fading feature-details__sub-heading'>
