@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/schottenschulle/static/css/main.71acbb33.css",
-    "main.js": "/schottenschulle/static/js/main.8e1a5020.js",
+    "main.css": "/schottenschulle/static/css/main.e4060808.css",
+    "main.js": "/schottenschulle/static/js/main.0664208d.js",
     "static/media/therewasalad.mp3": "/schottenschulle/static/media/therewasalad.36af8f6f18c4b7918ef9.mp3",
     "static/media/scotlandthebrave.mp3": "/schottenschulle/static/media/scotlandthebrave.13b6d873b913f9be66fd.mp3",
     "static/media/mylove.mp3": "/schottenschulle/static/media/mylove.86e6a7f107446b5ac6c1.mp3",
@@ -27,11 +27,11 @@
     "static/media/TulpenOne-Regular.ttf": "/schottenschulle/static/media/TulpenOne-Regular.fc5158b046cc7116028a.ttf",
     "static/media/tartan.gif": "/schottenschulle/static/media/tartan.4c1bbe75e6fc8a4b53fb.gif",
     "index.html": "/schottenschulle/index.html",
-    "main.71acbb33.css.map": "/schottenschulle/static/css/main.71acbb33.css.map",
-    "main.8e1a5020.js.map": "/schottenschulle/static/js/main.8e1a5020.js.map"
+    "main.e4060808.css.map": "/schottenschulle/static/css/main.e4060808.css.map",
+    "main.0664208d.js.map": "/schottenschulle/static/js/main.0664208d.js.map"
   },
   "entrypoints": [
-    "static/css/main.71acbb33.css",
-    "static/js/main.8e1a5020.js"
+    "static/css/main.e4060808.css",
+    "static/js/main.0664208d.js"
   ]
 }
