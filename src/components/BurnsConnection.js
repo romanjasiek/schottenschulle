@@ -86,7 +86,6 @@ const BurnsConnection = () => {
             </Col>
           </Row>
         </Container>
-        <div className='burns-connection__spacer-div'></div>
       </section>
     </div>
   );

@@ -50,20 +50,23 @@ $-welcome__image-hover-border: 0.33rem;
     position: relative;
 
     @media (max-width: $breakpoint-md) {
-        width: 50%;
-        height: clamp(10rem, calc(20vw + 10rem), 36rem);
+        // width: 50%;
+        // height: clamp(10rem, calc(20vw + 10rem), 36rem);
+        display: none;
     }
 
     @media (max-width: $breakpoint-sm) {
-        float: none;
-        width: 80%;
-        margin: 0 auto;
-        height: clamp(10rem, calc(30vw + 10rem), 36rem);
+        // float: none;
+        // width: 80%;
+        // margin: 0 auto;
+        // height: clamp(10rem, calc(30vw + 10rem), 36rem);
+        display: none;
     }
 
     @media (max-width: $breakpoint-xs) {
-        width: 90%;
-        height: clamp(10rem, calc(38.5vw + 10rem), 36rem);
+        // width: 90%;
+        // height: clamp(10rem, calc(38.5vw + 10rem), 36rem);
+        display: none;
     }
 }
 

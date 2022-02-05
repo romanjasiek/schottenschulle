@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Schottenschulle from '../assets/img/welcome/schottenschulle.jpg';
 import Schottenschulle2 from '../assets/img/welcome/schottenschulle2.jpg';
 import Schottenschulle3 from '../assets/img/welcome/schottenschulle3.jpg';
