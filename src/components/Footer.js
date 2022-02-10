@@ -12,7 +12,7 @@ const Footer = () => {
               <h3 className='footer__heading'>Kontakt</h3>
               <p className='footer__paragraph'>
                 Bitte kontaktieren Sie mich gerne, wenn Sie das Dudelsackspielen
-                erlernen oder mich für eine Veranstaltung buchen möchten:
+                erlernen <br/>oder mich für eine Veranstaltung buchen möchten:
               </p>
 
               <div className='footer__contact-item'>
