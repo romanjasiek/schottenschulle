@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/schottenschulle/static/css/main.9289a954.css",
-    "main.js": "/schottenschulle/static/js/main.df98acdd.js",
+    "main.css": "/schottenschulle/static/css/main.8b314a42.css",
+    "main.js": "/schottenschulle/static/js/main.fd58b373.js",
     "static/media/therewasalad.mp3": "/schottenschulle/static/media/therewasalad.36af8f6f18c4b7918ef9.mp3",
     "static/media/scotlandthebrave.mp3": "/schottenschulle/static/media/scotlandthebrave.13b6d873b913f9be66fd.mp3",
     "static/media/mylove.mp3": "/schottenschulle/static/media/mylove.86e6a7f107446b5ac6c1.mp3",
     "static/media/loop.mp4": "/schottenschulle/static/media/loop.717cf9348933311334b9.mp4",
     "static/media/loop.ogv": "/schottenschulle/static/media/loop.f3aea233486c24ba0774.ogv",
     "static/media/loop.webm": "/schottenschulle/static/media/loop.e5d6e0954f5ca344d7f4.webm",
-    "static/media/schottenschulle.jpg": "/schottenschulle/static/media/schottenschulle.5ad930869ab9b48b2961.jpg",
+    "static/media/schottenschulle.jpg": "/schottenschulle/static/media/schottenschulle.e022cf8e3efa4e4a013f.jpg",
     "static/media/auftritte.jpg": "/schottenschulle/static/media/auftritte.ef2256055f550cdeff0f.jpg",
     "static/media/schottenschulle2.jpg": "/schottenschulle/static/media/schottenschulle2.8a243b6d45668e8548a0.jpg",
     "static/media/header.jpg": "/schottenschulle/static/media/header.88467c8dfe13f91eb030.jpg",
-    "static/media/schottenschulle3.jpg": "/schottenschulle/static/media/schottenschulle3.22486a606f918f37ae23.jpg",
+    "static/media/schottenschulle3.jpg": "/schottenschulle/static/media/schottenschulle3.8973dff9673cd5288b3f.jpg",
     "static/media/schottenschulle1.jpg": "/schottenschulle/static/media/schottenschulle1.86bb79da9367c3924b67.jpg",
     "static/media/OpenSans-Italic-VariableFont.ttf": "/schottenschulle/static/media/OpenSans-Italic-VariableFont.81a74304bda5ab8fa33a.ttf",
     "static/media/OpenSans-VariableFont.ttf": "/schottenschulle/static/media/OpenSans-VariableFont.a42bbe687810bdc6e9e8.ttf",
@@ -28,11 +28,11 @@
     "static/media/RennieMackintoshITC-Bold.otf": "/schottenschulle/static/media/RennieMackintoshITC-Bold.a5ca968b5302ca703fac.otf",
     "static/media/tartan.gif": "/schottenschulle/static/media/tartan.4c1bbe75e6fc8a4b53fb.gif",
     "index.html": "/schottenschulle/index.html",
-    "main.9289a954.css.map": "/schottenschulle/static/css/main.9289a954.css.map",
-    "main.df98acdd.js.map": "/schottenschulle/static/js/main.df98acdd.js.map"
+    "main.8b314a42.css.map": "/schottenschulle/static/css/main.8b314a42.css.map",
+    "main.fd58b373.js.map": "/schottenschulle/static/js/main.fd58b373.js.map"
   },
   "entrypoints": [
-    "static/css/main.9289a954.css",
-    "static/js/main.df98acdd.js"
+    "static/css/main.8b314a42.css",
+    "static/js/main.fd58b373.js"
   ]
 }
