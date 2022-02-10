@@ -153,7 +153,7 @@ const Features = () => {
                     beavior='smooth'
                     to='#burnsconnectionanchor'
                   >
-                    Deutsch-Schottische Freundschaft
+                    Càirdeas
                   </Link>
                 </p>
                 <p className='features__card-used-tech-desc'>

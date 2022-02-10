@@ -29,3 +29,10 @@
     font-display: swap;
     src: local('Old English'), url(../assets/fonts/old-english-text-mt.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'Rennie';
+    font-style: normal;
+    font-display: swap;
+    src: local('Rennie'), url(../assets/fonts/RennieMackintoshITC-Bold.otf) format('truetype');
+}

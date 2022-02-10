@@ -48,11 +48,11 @@ const FeatureDetails = () => {
                   Weiterhin überreiche Ihnen eine Miniatur mit schottischem Malt
                   Whisky. Anschließend folgen unter anderem “
                   <strong>Amazing Grace</strong>”, “
-                  <strong>The Green Hills of Tyrol</strong>” und dem
+                  <strong>The Green Hills of Tyrol</strong>”, "<strong>Highland Cathedral</strong>" und dem
                   Hochlandstanz “<strong>Atholl Highlanders</strong>”.
                 </p>
                 <p className='feature-details__text'>
-                  Zum Abschluss spiele ich “
+                  Zum Abschluss spiele ich das auch in Schottland bekannte “
                   <strong>Muß I denn zum Städtele hinaus</strong>” und als
                   krönendes Finale das Abschiedslied der Schotten, “
                   <strong>Auld Lang Syne</strong>”.
@@ -79,7 +79,7 @@ const FeatureDetails = () => {
                   Auge trocken mit “<strong>Amazing Grace</strong>”, dem
                   schottischen Hochzeitsmarsch “
                   <strong>Mairie's Wedding</strong>”, sowie “
-                  <strong>Highland Cathedral</strong>” und dem Hochzeitsmarsch
+                  <strong>Highland Cathedral</strong>” und bei Bedarf dem Hochzeitsmarsch
                   von Richard Wagner aus Lohengrin “
                   <strong>Treulich vereint ziehet dahin</strong>”.
                 </p>

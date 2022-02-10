@@ -28,7 +28,7 @@ const BurnsSupper = () => {
                 Höhepunkt des Abends ist das traditionelle schottische Essen “
                 <strong>The Haggis</strong>”, dazu hören Sie von mir auf der
                 Bagpipe “<strong>A man's a man for a'that</strong>” und “
-                <strong>Robin was a runtin boy</strong>”. Am späteren Abend gibt
+                <strong>There was a lad was born in Kyle</strong>”. Am späteren Abend gibt
                 es schottische Tanzmusik mit Strathspeys, Jigs, Reels und
                 Hornpipes. Zum Schluß spiele ich “
                 <strong>Auld Lang Syne</strong>”.
