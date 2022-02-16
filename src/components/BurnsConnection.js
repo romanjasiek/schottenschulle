@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ReactAudioPlayer from 'react-audio-player';
-import ThereWasALad from '../assets/audio/therewasalad.mp3';
-import MyLove from '../assets/audio/mylove.mp3';
 
 import BurnsConnectionImage from '../assets/img/burnsconnection/burnsconnection.jpg';
 
@@ -54,35 +51,6 @@ const BurnsConnection = () => {
                 <strong>Berlin-Pankow</strong> und in{' '}
                 <strong>Inversnaid</strong> in Schottland.
               </p>
-              <p className='burns-connection__text'>
-                Damit Sie einen kleinen Eindruck davon bekommen, wie sich die{' '}
-                <strong>Burns Connection</strong> anhört, haben wir nachfolgend
-                zwei Hörbeispiele für Sie. Wir wünschen viel Vergnügen!
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={6} lg={6}>
-              <h3 className='burns-connection__songtitle'>
-                There Was A Lad Was Born In Kyle
-              </h3>
-              <ReactAudioPlayer
-                src={ThereWasALad}
-                controls
-                controlsList='nodownload'
-                preload='metadata'
-              />
-            </Col>
-            <Col xs={12} md={6} lg={6}>
-              <h3 className='burns-connection__songtitle'>
-                My Love She's But A Lassie Yet
-              </h3>
-              <ReactAudioPlayer
-                src={MyLove}
-                controls
-                controlsList='nodownload'
-                preload='metadata'
-              />
             </Col>
           </Row>
         </Container>
