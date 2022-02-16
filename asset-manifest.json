@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/schottenschulle/static/css/main.f834ef10.css",
-    "main.js": "/schottenschulle/static/js/main.69b7c6ae.js",
+    "main.js": "/schottenschulle/static/js/main.8bb869bd.js",
     "static/media/therewasalad.mp3": "/schottenschulle/static/media/therewasalad.36af8f6f18c4b7918ef9.mp3",
     "static/media/scotlandthebrave.mp3": "/schottenschulle/static/media/scotlandthebrave.13b6d873b913f9be66fd.mp3",
     "static/media/mylove.mp3": "/schottenschulle/static/media/mylove.86e6a7f107446b5ac6c1.mp3",
@@ -36,10 +36,10 @@
     "static/media/tartan.gif": "/schottenschulle/static/media/tartan.4c1bbe75e6fc8a4b53fb.gif",
     "index.html": "/schottenschulle/index.html",
     "main.f834ef10.css.map": "/schottenschulle/static/css/main.f834ef10.css.map",
-    "main.69b7c6ae.js.map": "/schottenschulle/static/js/main.69b7c6ae.js.map"
+    "main.8bb869bd.js.map": "/schottenschulle/static/js/main.8bb869bd.js.map"
   },
   "entrypoints": [
     "static/css/main.f834ef10.css",
-    "static/js/main.69b7c6ae.js"
+    "static/js/main.8bb869bd.js"
   ]
 }
