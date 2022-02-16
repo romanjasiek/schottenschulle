@@ -60,10 +60,10 @@ const BurnsSupper = () => {
             </Col>
           </Row>
           <Row>
-          <p className='burns-connection__text'>
+          <p className='burns-supper__text'>
                 Damit Sie einen kleinen Eindruck davon bekommen, welche Musik bei einem{' '}
                 <strong>Burns Supper</strong> gespielt wird, habe ich nachfolgend
-                zwei Hörbeispiele für Sie. Wir wünschen viel Vergnügen!
+                zwei Hörbeispiele für Sie. Ich wünsche viel Vergnügen!
               </p>
             <Col xs={12} md={6} lg={6}>
               <h3 className='burns-connection__songtitle'>
